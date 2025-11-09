@@ -61,7 +61,7 @@ app.use('/images', express.static(path.join(__dirname, 'public', 'images')));
 // ============================================
 // DATABASE CONNECTION
 // ============================================
-const MONGODB_URI = 'mongodb+srv://cappuccino:letscode5599$@codecaffee.o7etasv.mongodb.net/?appName=codecaffee';
+const MONGODB_URI = 'mongodb+srv://bloomie:Bloomie%40123@cluster0.wvxlq3z.mongodb.net/?appName=Cluster0';
 
 mongoose.connect(MONGODB_URI)
   .then(() => console.log('✅ MongoDB Connected Successfully'))
